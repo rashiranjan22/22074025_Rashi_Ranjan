@@ -85,8 +85,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'urldb',
-        'USER': 'urldbuser',
-        'PASSWORD': 'urldb@123',
+        'USER': 'user',
+        'PASSWORD': 'url123',
         'HOST': 'localhost',  # Use the appropriate host if not localhost
         'PORT': '3306',  # Use the appropriate port if not the default (usually 3306)
     }
