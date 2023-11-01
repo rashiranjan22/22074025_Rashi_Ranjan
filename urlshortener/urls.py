@@ -21,5 +21,5 @@ from shortener.views import short_url_list
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", include("shortener.urls")),
-
+    # kindly refer shortener.urls for the urls 
 ]
